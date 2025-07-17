@@ -1,2 +1,5 @@
 use company;
-select  emp_name  as name from employee;
+create table manager
+select * from employee where emp_salary>2000;
+
+select * from manager;
