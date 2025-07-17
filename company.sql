@@ -1,9 +1,4 @@
 use company;
-create table users(
-    ID int,
-    first_name varchar(225),
-    last_name varchar(225),
-    age int
-);
-alter table users
-add primary key (ID);
+select * from employee where emp_name like 'M%';
+select * from employee where emp_name like '%a%';
+select * from employee where emp_name like '_m%';
