@@ -1,2 +1,2 @@
 use company;
-select distinct emp_name  from employee;
+select  emp_name  as name from employee;
