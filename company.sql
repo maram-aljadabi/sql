@@ -1,2 +1,2 @@
 use company;
-select * from employee cross join company;
+select * from company natural join product;
